@@ -1,0 +1,39 @@
+{
+  "name": "krubio/perfect-database",
+  "description": "SOLID Compliant Database Connection",
+  "keywords": [
+    "MongoDB",
+    "MsSql",
+    "Mysql",
+    "Postgresql",
+    "SQLIte"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kevin Rubio",
+      "email": "ducatikevin@yahoo.com",
+      "homepage": "https://github.com/benanamen/perfect-database",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "codeception/codeception": "^5.0",
+    "codeception/module-asserts": "*",
+    "phpstan/phpstan": "^1.10"
+  },
+  "scripts": {
+    "test": [
+      "php vendor/bin/codecept run --coverage --coverage-html  --coverage-xml"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "PerfectApp\\": "src/"
+    }
+  }
+}
