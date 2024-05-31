@@ -1,4 +1,5 @@
 [![codecov](https://codecov.io/gh/benanamen/perfect-database/branch/master/graph/badge.svg?token=USDDdj2mU0)](https://codecov.io/gh/benanamen/perfect-database)
+[![Build](https://github.com/benanamen/perfect-database/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/benanamen/perfect-database/actions/workflows/build.yml)
 
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=benanamen_perfect-database&metric=coverage)](https://sonarcloud.io/summary/new_code?id=benanamen_perfect-database)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=benanamen_perfect-database&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=benanamen_perfect-database)
